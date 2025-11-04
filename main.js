@@ -37,6 +37,7 @@ function exportToWord(
     <p>LUCK9217@gmail.com</p>
     <p>+61 467520280</p>
     <p>LinkedIn: https://www.linkedin.com/in/lucas-chavez/</p>
+    <p>Portfolio: https://luck9217.github.io/lucas-chavez-resume/</p>
     <div class="hr"></div>
   `;
 

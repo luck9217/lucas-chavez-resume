@@ -17,12 +17,14 @@
 ## 🛠️ Technologies Used
 
 ### Frontend
+
 - **HTML5** - Semantic markup and structure
 - **CSS3** - Modern styling with CSS Grid, Flexbox, and animations
 - **JavaScript (ES6+)** - Interactive functionality and Word export
 - **Google Fonts** - Inter font family for professional typography
 
 ### Features & Libraries
+
 - **CSS Custom Properties** - Consistent theming and easy maintenance
 - **CSS Animations** - Smooth transitions and engaging micro-interactions
 - **Blob API** - Client-side Word document generation
@@ -42,23 +44,26 @@ lucas-chavez-resume/
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - Web server (for local development) or just open index.html directly
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/luck9217/lucas-chavez-resume.git
    cd lucas-chavez-resume
    ```
 
 2. **Open locally**
+
    ```bash
    # Option 1: Direct file opening
    open index.html  # macOS
    start index.html # Windows
-   
+
    # Option 2: Simple HTTP server (recommended)
    python -m http.server 8000
    # or
@@ -72,16 +77,20 @@ lucas-chavez-resume/
 ## 📋 Sections
 
 ### 🏠 Hero Section
+
 - Professional introduction
 - Contact information with social links
 - Resume download functionality
 
 ### 👨‍💻 About
+
 - Professional summary and skills overview
 - Career objectives and passion for development
 
 ### 💼 Portfolio
+
 Featured projects including:
+
 - **Rick and Morty Explorer** - React/Next.js app with GraphQL
 - **E-commerce Cart** - React/Redux shopping application
 - **Crypto Tracker** - Real-time cryptocurrency dashboard
@@ -90,12 +99,15 @@ Featured projects including:
 - **Library Management Backend** - Node.js RESTful API
 
 ### 🎯 Experience
+
 - Professional work history
 - Education and certifications
 - Technical achievements and responsibilities
 
 ### 🛠️ Skills
+
 Organized technical skills including:
+
 - Frontend Technologies (React, Next.js, TypeScript)
 - Backend & APIs (Node.js, GraphQL, REST)
 - Mobile Development (React Native, Flutter)
@@ -105,17 +117,20 @@ Organized technical skills including:
 ## 🎨 Design Features
 
 ### Color Palette
+
 - **Primary**: Modern blue gradient (`#6366f1` to `#8b5cf6` to `#06b6d4`)
 - **Typography**: Inter font family for excellent readability
 - **Shadows**: Layered shadow system for depth and hierarchy
 - **Animations**: Smooth transitions and hover effects
 
 ### Responsive Breakpoints
+
 - **Desktop**: 1200px+ (full layout)
 - **Tablet**: 768px - 1199px (adjusted grid)
 - **Mobile**: < 768px (single column, centered content)
 
 ### Accessibility
+
 - Semantic HTML structure
 - ARIA labels and roles
 - Keyboard navigation support
@@ -132,6 +147,7 @@ The website includes a powerful resume export feature:
 - **Usage**: Click "Download Resume" button in hero or footer
 
 ### Export Features
+
 - Contact information header
 - Professional summary
 - Complete work experience
@@ -142,6 +158,7 @@ The website includes a powerful resume export feature:
 ## 🔧 Customization
 
 ### Updating Content
+
 1. **Personal Information**: Edit the hero section in `index.html`
 2. **Projects**: Update the portfolio grid with your projects
 3. **Experience**: Modify the experience items and descriptions
@@ -149,32 +166,34 @@ The website includes a powerful resume export feature:
 5. **Contact**: Change email, phone, and social links
 
 ### Styling
+
 - **Colors**: Modify CSS custom properties in the `:root` selector
 - **Fonts**: Update Google Fonts import and font-family declarations
 - **Layout**: Adjust grid templates and spacing variables
 - **Animations**: Customize keyframes and transition durations
 
 ### Adding Projects
+
 ```html
 <div class="project-card">
   <h3 class="project-title">Your Project Name</h3>
   <p class="project-tech">Tech Stack</p>
   <p class="project-description">Project description...</p>
-  <a href="your-link" class="project-link">
-    <span>🚀</span> View Live Demo
-  </a>
+  <a href="your-link" class="project-link"> <span>🚀</span> View Live Demo </a>
 </div>
 ```
 
 ## 🚀 Deployment
 
 ### GitHub Pages (Recommended)
+
 1. Push your changes to the `main` branch
 2. Go to repository Settings → Pages
 3. Select "Deploy from a branch" → `main` → `/ (root)`
 4. Your site will be available at `https://yourusername.github.io/lucas-chavez-resume`
 
 ### Other Platforms
+
 - **Netlify**: Connect GitHub repo for automatic deployments
 - **Vercel**: Import GitHub repository with zero configuration
 - **Surge.sh**: `npm install -g surge && surge`
